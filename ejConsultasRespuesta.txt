@@ -1,0 +1,76 @@
+?- habilidad(emmaGoldman,Cuales).
+Cuales = judo ;
+Cuales = armarBombas.
+
+?- gusto(emmaGoldman,Cuales).
+Cuales = judo ;
+Cuales = automovilismo.
+
+?- superficie(laSeverino, SuSuperficie). 
+SuSuperficie = 59.
+
+?- superficie(comisaria48, SuSuperficie).   
+SuSuperficie = 0.
+
+?- viviendaRebelde(laSeverino).    
+true .
+
+?- viviendaRebelde(laCasaDePapel).
+true .
+
+?- noViveNadie(casaDelSolNaciente).
+true.
+
+?- losQueVivenTienenGustoEnComun(laCasaDePapel). 
+true .
+
+?- losQueVivenTienenGustoEnComun(comisaria48).    
+true.
+
+5)
+
+?- tieneHabilidadTerrorista(elisaBachofen).
+true.
+?- tieneHabilidadTerrorista(emmaGoldman).  
+true.
+?- tieneHabilidadTerrorista(juanSuriano).
+true.
+?- tieneHabilidadTerrorista(ravachol).   
+true.
+?- tieneHabilidadTerrorista(rosaDubovsky). 
+true
+
+?- requisitoB(bakunin).
+true .
+?- requisitoB(juanSuriano). 
+true .
+?- requisitoB(judithButler). 
+true .
+?- requisitoB(ravachol).    
+true.
+?- requisitoB(rosaDubovsky).    
+true.
+?- requisitoB(sebastienFaure ).     
+true .
+
+?- requisitoC(bakunin).
+true .
+?- requisitoC(elisaBachofen).
+true .
+?- requisitoC(emmaGoldman).
+true .
+?- requisitoC(juanSuriano).
+true .
+?- requisitoC(judithButler).
+true .
+?- requisitoC(ravachol).
+true .
+?- requisitoC(rosaDubovsky).
+true .
+
+?- esDisidente(rosaDubovsky).
+true .
+?- esDisidente(juanSuriano).
+true .
+?- esDisidente(ravachol).
+true .
